@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Adicionar Produto</title>
+</head>
+<body>
+    <div class="header-page"> 
+        <h1 class="header-h1">Bem-vind@ à <em>Casa do Saber</em>!</h1>
+        <p class="header-text">Aqui vc encontra <strong>Livros</strong> da melhor qualidade</p>
+    </div>
+
+    <div class="menu">
+        <div class="menu-itens">
+            <a href="index.html">Página Inicial</a>
+            <a href="ctrl-estoque.html">Controle de Estoque</a>
+            <a href="add-produto.html">Adicionar Produto</a>
+            <a href="funcionarios.html">Funcionários</a>
+        </div>
+    </div>
+
+    <div class="add-produto">
+        <h2>Adicionar Produto</h2>
+
+        <form action="">
+            <div class="formulario">
+                <label for="link-foto">Link para foto: </label>
+                <input type="url" id="link-foto" name="link-foto">
+            </div>
+            
+            <div class="formulario">
+                <label for="descricao">Descrição do produto: </label>
+                <!-- Adicione o id apropriado para o input abaixo -->
+                <input type="text" id="descricao" name="descrição">
+            </div>
+            
+            <div class="formulario">
+                <label for="preco">Preço (em R$): </label>
+                <!-- Adicione o id apropriado e o type para receber números abaixo -->
+                <input type="number" id="preço" name="preço">
+            </div>
+            
+            <div class="formulario">
+                <!-- Preencha as propriedades necessárias para os elementos abaixo -->
+                <label>Quantidade disponível: </label>
+                <input type="number" id="quantidade_disponivel" name="quantidade_disponivel">
+            </div>
+
+            <div class="form-add" class="formulario">
+                <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
+                <button type="submit">Adicionar</button>
+            </div>
+
+        </form>
+    </div>
+    <footer class="footer">
+        <div class="footer-inf">
+            <div id="footer-inf-p">
+                <p>Siga-nos nas redes sociais!</p>
+                <p>Lembre-se: O conhecimento é o melhor caminho para a <stro>Evolução Contínua!!!</stro></p>
+            </div>
+            <div id="footer-redes">
+                <img src="https://image.flaticon.com/icons/png/512/25/25305.png"/>
+                <img src="https://image.flaticon.com/icons/png/512/25/25425.png"/>
+                <img src="https://image.flaticon.com/icons/png/512/8/8800.png"/>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
