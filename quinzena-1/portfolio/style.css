@@ -1,0 +1,431 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+header {
+  height: 100px;
+  background-color: #000;
+}
+
+.header {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  width: 300px;
+  height: 100px;
+  padding-top: 30px;
+  padding-left: 30px;
+  display: flex;
+    
+}
+
+.logo a {
+  color: #FFF;
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  
+  
+}
+
+.menu {
+  flex: 1;
+    
+}
+
+.menu ul,
+.menu li {
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.menu li a {
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Montserrat, sans-serif;
+ 
+}
+
+.menu li a:hover {
+  color: #B28756;
+}
+
+.banner {
+  width: 100vw;
+  height: calc(100vh - 100px);
+  background-color: #333;
+  background-image: url(/images/backgroundimage.jpeg);
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+  
+}
+
+.banner-info {
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  
+}
+
+.banner-area {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: #FFF;
+  align-items: center;
+  
+}
+
+.banner-area h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 150px;
+  font-family: Montserrat, sans-serif;
+}
+
+.banner-area h2 {
+  color: #B28756;
+  margin-top: 10px;
+  font-size: 32px;
+  font-family: Montserrat, sans-serif;
+}
+
+.about {
+  width: 100vw;
+  height: 100%;
+  display: flex;  
+  max-width: 1140px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.about-title {
+  height: 100%;
+  width: 570px;
+  margin-top: 80px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  display: initial;
+}
+
+.about-title h1 {
+  color: #B28756;
+  font-size: 48px;
+  margin-left: 50px;
+  font-family: Montserrat, sans-serif;
+
+}
+
+.about-title p {
+  margin-top: 25px;
+  font-size: 16px;
+  color: black;
+  font-family: Montserrat, sans-serif;
+}
+
+.about-button  {
+  width: 90px;
+  height: 100%;
+  margin-top: 25px;
+  display: flex;
+  margin-left: 150px;
+  border-radius: 20%;
+  background-color: #B28756;
+  
+
+}
+
+
+
+.about-title a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.about-image {
+  height: 100%;
+  width: 570px;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.about-image img {
+  border-radius: 50%;
+  height: 400px;
+
+}
+
+.skills {
+  height: 100%;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+}
+
+.skills-container {
+  max-width: 1140px;
+  margin: auto;
+  padding-top: 100px;
+  
+
+}
+
+.skills-container-title h1 {
+  font-size: 36px;
+  max-width: 800px;
+  margin: auto;
+  color: #B28756;
+  padding-left: 50px;
+  font-family: Montserrat, sans-serif;
+  
+}
+
+
+.skills-container-tec {
+  max-width: 900px;
+  height: 100%;
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-radius: 05%;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.tec {
+  height: 100%;
+  width: 200px;
+  padding: 20px 10px;
+  margin-left: 20px;
+  
+}
+
+.skills-container-tec1 {
+  max-width: 900px;
+  height: 100%;
+  background-color: white;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.skills-container-tec1 h1 {
+  font-size: 32px;
+  margin-top: 30px;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+.skills-container-tec1 p {
+  padding-left: 30px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.portfolio {
+  width: 100vw;
+  height: 100%;
+  background-color: white;
+}
+
+
+
+.portfolio-container {
+  max-width: 1140px;
+  margin: auto;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  
+  
+}
+
+.portfolio-title h1 {
+  color: #B28756;
+  font-size: 48px;
+  font-family: Montserrat, sans-serif;
+  margin-left: 50px;
+}
+
+.project-container {
+  max-width: 1140px;
+  display: flex;
+  margin: auto;
+}
+
+.portfolio-project {
+  width: 350px;
+  display: flex;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-project {
+  margin-top: 50px;
+  border: 2px solid white;
+  width: 350px;
+  background-color: black;
+}
+
+.project-title h2 {
+  margin-left: 100px;
+  margin-top: 20px;
+  color: white;
+}
+
+.project-image img{
+  width: 346px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+
+.contact {
+  width: 100vw;
+  height: 100%;
+  background-color: black;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form h1 {
+  color: #B28756;
+  font-size: 48px;
+  font-family: Montserrat, sans-serif;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.form-contato {
+  display: flex;
+  padding-top: 30px;
+  justify-content: left;
+  align-items: center;
+  display: block;
+}
+
+
+
+label {
+  color: white;
+  font-size: 24px;
+  justify-items: left;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+#text-area {
+  width: 100%;
+  height: 100px;
+  resize: none;
+}
+
+.button {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  background-color: black;
+  width: 100vw;
+  height: 200px;
+  border-top: 3px solid white;
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+}
+
+.footer-left {
+  max-width: 570px;
+  height: 100%;
+  
+}
+.footer-left h1 {
+  color: white;
+  font-size: 16px;
+  margin: 30px
+}
+
+.footer-right {
+  max-width: 570px;
+  height: 100%;
+  display: flex;
+  
+}
+
+.rodape {
+  width: 100vw;
+  height: 100%;
+  color: white;
+  font-size: 16px;
+  background-color: black;
+  display: flex;
+  
+}
+
+.rodape p {
+  margin: auto;
+}
+
+.footer-right img {
+  width: 30px;
+  height: 30px;
+  margin-top: 50px;
+  margin-right: 50px;
+  align-items: center;
+  
+}
+
+
+
+
+
+
+  
