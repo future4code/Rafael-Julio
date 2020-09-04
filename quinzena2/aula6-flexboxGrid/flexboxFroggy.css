@@ -1,0 +1,6 @@
+//Exercício 24.
+
+flex-direction: column-reverse;
+align-content: space-between;
+justify-content: center;
+flex-wrap: wrap-reverse;
