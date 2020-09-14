@@ -132,13 +132,11 @@ input:checked ~ label .hamburguer:after {
 }
 
 @media screen and (min-device-width : 401px) and (max-device-width : 600px) {
-    header {
-        max-width: 600px;
-    }
-
+    header,
     .barra-menu {
         max-width: 600px;
     }
+   
 }
 
 @media (min-width: 601px) {
