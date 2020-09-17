@@ -136,7 +136,6 @@ input:checked ~ label .hamburguer:after {
     .barra-menu {
         max-width: 600px;
     }
-   
 }
 
 @media (min-width: 601px) {
