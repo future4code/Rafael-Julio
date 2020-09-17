@@ -15,7 +15,6 @@ body, main {
 
 .imgcar {
     display: none;
-    
 }
 
 
@@ -25,7 +24,6 @@ body, main {
     display: flex;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.6);
-    
 }
 
 .main-op h1 {
@@ -35,7 +33,6 @@ body, main {
     color: white;
     font-family: sans-serif;
     text-align: right;
-        
 }
 
 .main-op p {
@@ -168,14 +165,12 @@ footer {
         width: 50%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.6);
-        border: 2px solid red;
-        
+        border: 2px solid red;        
     }
 
     .imgcar img {
-        width: 70%;
-        margin: auto;
-        border: 2px solid white;
+      width: 80%;
+      margin: 100px 50px;
     }
 
     .main-op {
