@@ -11,18 +11,10 @@
 //R: Esse código passa por todos elementos do array e qdo um é maior do que 18, ele imprime.
 //Deixando impresso: 19, 21, 23, 25, 27, 30.
 
-// const quantidadeTotal = Number(prompt("Digite a quantidade de linhas: "))
-// let quantidadeAtual = 0
+//Desafio 1:
 
-// while(quantidadeAtual < quantidadeTotal){
-//   let linha = ""
-//   for(let asteriscos = 0; asteriscos < quantidadeAtual + 1; asteriscos++){
-//     linha += "0"
-//   }
-
-//   console.log(linha)
-//   quantidadeAtual++
-// }
+//R: Vai ser impresso na tela 4 linhas, na primeira linha vai ser um 0 e aumenta um zero conforme
+//aumenta as linhas.
 
 //Exercício 3:
 
