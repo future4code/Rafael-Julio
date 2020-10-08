@@ -49,12 +49,5 @@ function inserirNovaImagem() {
     valorDoInput.value = "";
 }
 
-function postarArtigo() {
-    const inserindoPost = document.getElementById("posts")
        
-    inserindoPost.innerHTML += "<h1>" + arrayDePost[i].titulo + "</h1>" + "<h2>" + arrayDePost[i].autor + "</h2>" +"<p>" + arrayDePost[i].conteudo + "</p>"
-    containerDeImagem.innerHTML += `<img class="img-post" src="${valorDoInput.value}" href="Alguma imagem" />`
-    i++
-       
-}
 
