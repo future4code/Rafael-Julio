@@ -9,4 +9,9 @@
 //Esse valor de 100 vai ser multiplicado pela cotação e imprime no console o valor transformado.
 
 //Exercício 2.
-//
+//Temos uma função que recebe 2 parâmetros, tipo de investimento e o valor investido.
+//a função encontra o tipo e multiplica pela sua rentabilidade e retorna no final o valor investido
+//com a rentabilidade.
+//a primeira impressão será valor 150 * 1,1 = 165.
+//a segunda impressão será tipo de investimento informado incorreto, pois ele não encontrará
+// no switch o texto tesouro direto e vai imprime default.
