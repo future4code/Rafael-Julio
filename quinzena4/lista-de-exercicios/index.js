@@ -180,3 +180,17 @@
 //devemos usar objetos só para armazenar informações e buscar depois.
 
 
+//Exercício 2.
+
+// let criaRetangulo = (lado1,lado2) => {
+//     const retangulo = {
+//         largura: lado1,
+//         altura: lado2,
+//         perimetro: (2 * (lado1 + lado2)),
+//         area: lado1 * lado2
+//     }
+
+//     console.log(retangulo)
+// }
+
+// criaRetangulo(3,5)
