@@ -207,3 +207,23 @@
 
 // console.log(`Venham assistir ao filme: ${filme.titulo}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores}.`)
 
+
+//Exercício 4.
+
+// const dadosCadastrais = {
+//     nome: "Rafael Julio",
+//     idade: 36,
+//     email: "rafa@rafaeljulio.dev",
+//     endereco: "Av. José Leon, 1078"
+// }
+
+// const anonimizarPessoas = (dados) => {
+//     const dadosAnonimos = {
+//         ... dados,
+//         nome: "Anônimo"
+//     }
+
+//     console.log(dadosAnonimos)
+// }
+
+// anonimizarPessoas(dadosCadastrais)
