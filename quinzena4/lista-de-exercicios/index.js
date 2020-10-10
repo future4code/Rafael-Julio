@@ -25,7 +25,20 @@
 //Vai imprimir -10 e 1590 no console.
 
 
-// ---------- Exercícios de Execução de código --------- //
+// ---------- Exercícios de Lógica de Programação --------- //
 
+//Exercício 1.
+// Da pra percorrer pelo for, pelo for of e forEach.
 
+// const nomes = ["Rafael", "Lucas", "Amanda", "Severo", "Soter"]
+// for(let i = 0; i < nomes.length; i++){
+//     console.log(nomes[i])
+// }
 
+// for(nome of nomes) {
+//     console.log(nome)
+// }
+
+// nomes.forEach((nome) => {
+//     console.log(nome)
+// })
