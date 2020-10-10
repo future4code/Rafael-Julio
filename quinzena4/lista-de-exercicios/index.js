@@ -250,3 +250,28 @@
 // const novoArray = array.filter(pessoas => pessoas.idade < 20);
 // console.log(novoArray)
 
+//Exercício 2.
+// const array = [1, 2, 3, 4, 5, 6]
+// //A)
+// const multiplicaDois = array.map(function(item){
+//     return (item * 2);
+// })
+
+// console.log(multiplicaDois)
+
+//B)
+// const multiplicaTres = array.map(function(item){
+//     return String(item * 3);
+// })
+
+// console.log(multiplicaTres)
+
+//C)
+// const parImpar = array.map(function(item){
+//     if (item % 2 === 0){
+//         console.log(`${item} é par`)
+//     } else {
+//         console.log(`${item} é ímpar`)
+//     }
+// })
+
