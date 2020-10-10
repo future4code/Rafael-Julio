@@ -42,3 +42,20 @@
 // nomes.forEach((nome) => {
 //     console.log(nome)
 // })
+
+//Exercício 2.
+
+//A) booleano1 && booleano2 && !booleano4
+//R. False.
+
+//B) ((booleano1 && booleano2) || !booleano3)
+//R. False
+
+//C) (booleano2 || booleano3) && (booleano4 || booleano1)
+//R. True
+
+//D) !(booleano2 && booleano3) || !(booleano1 && booleano3)
+//R. True
+
+//E) !(booleano1) && !(booleano3) || (!booleano4 && booleano3 && booleano3)
+//R. True
