@@ -194,3 +194,16 @@
 // }
 
 // criaRetangulo(3,5)
+
+
+//Exercício 3.
+
+// const filme = {
+//     titulo:   "Senhor dos Anéis",
+//     ano:      2001,
+//     diretor:  "Peter Jackson",
+//     atores:   ["Elijah Wood", "Sean Astin", "Ian McKellen"]
+// }
+
+// console.log(`Venham assistir ao filme: ${filme.titulo}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores}.`)
+
