@@ -15,3 +15,17 @@
 //a primeira impressão será valor 150 * 1,1 = 165.
 //a segunda impressão será tipo de investimento informado incorreto, pois ele não encontrará
 // no switch o texto tesouro direto e vai imprime default.
+
+//Exercício 3.
+//O primeiro console a ser impresso é a quantidade de números e imprime 14.
+//o segundo verifica os números pares, e da a quantidade que é igual a 6.
+//o terceiro verifica os números impares e a quantidade é igual a 8.
+
+//Exercício 4.
+//Vai imprimir -10 e 1590 no console.
+
+
+// ---------- Exercícios de Execução de código --------- //
+
+
+
