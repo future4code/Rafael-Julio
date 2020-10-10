@@ -227,3 +227,26 @@
 // }
 
 // anonimizarPessoas(dadosCadastrais)
+
+
+// ---------- Exercícios de Funções de Arrays --------- //
+
+//Exercício 1.
+
+// let array = [
+// 	{ nome: "Pedro", idade: 20 },
+// 	{ nome: "João", idade: 10 },
+// 	{ nome: "Paula", idade: 12 },
+// 	{ nome: "Artur", idade: 89 } 
+// ]
+
+//a) Faça uma função que retorne um novo array só com os adultos 
+//(pessoas com idade igual ou superior a 20)
+// const novoArray = array.filter(pessoas => pessoas.idade >= 20);
+// console.log(novoArray)
+
+//b) Faça uma função que retorne um novo array só com as 
+//crianças/adolescentes (pessoas com idade inferior a 20)
+// const novoArray = array.filter(pessoas => pessoas.idade < 20);
+// console.log(novoArray)
+
