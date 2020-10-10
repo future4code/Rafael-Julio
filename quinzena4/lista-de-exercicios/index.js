@@ -287,7 +287,7 @@
 // ]
 
 //A)
-// const podeEntrar = pessoas.map(function(item){
+// const podeEntrar = pessoas.filter(function(item){
 //     if (item.idade > 14 && item.idade < 60 && item.altura >= 1.5){
 //         return item
 //     } 
@@ -296,7 +296,7 @@
 // console.log(podeEntrar)
 
 //B)
-// const naoPodeEntrar = pessoas.map(function(item){
+// const naoPodeEntrar = pessoas.filter(function(item){
 //     if (item.idade < 14 || item.idade > 60 || item.altura <= 1.5){
 //         return item
 //     } 
@@ -305,3 +305,21 @@
 // console.log(naoPodeEntrar)
 
 
+//Exercício 4.
+
+const consultas = [
+	{ nome: "João", genero: "masculino", cancelada: true, dataDaConsulta: "01/10/2019" },
+	{ nome: "Pedro", genero: "masculino", cancelada: false, dataDaConsulta: "02/10/2019" },
+	{ nome: "Paula", genero: "feminino", cancelada: true, dataDaConsulta: "03/11/2019" },
+	{ nome: "Márcia", genero: "feminino", cancelada: false, dataDaConsulta: "04/11/2019" }
+]
+
+
+
+const consultasAgendadas = consultas.map(function(item) {
+    if (item.cancelada === false){
+        console.log(`Olá, ${item.genero} ${item.nome}. Estamos enviando esta mensagem para ${item.genero} da sua consulta no dia ${item.dataDaConsulta}. Por favor, acuse o recebimento deste e-mail.`)
+    } else {
+        console.log(`Olá, ${item.genero} ${item.nome}. Infelizmente, sua consulta marcada para o dia ${item.dataDaConsulta} foi cancelada. Se quiser, pode entrar em contato conosco para remarcá-la.`)
+    }
+})
