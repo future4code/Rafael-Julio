@@ -165,3 +165,18 @@
 // }
 
 // imprima()
+
+
+// ---------- Exercícios de Objetos --------- //
+
+//Exercício 1.
+//Arrays são variáveis que podem armazenar várias informações,
+//que são ordenados em índices começando do 0 e indo até ao final,
+//podendo armazenar inclusive funções.
+//Objetos são variáveis que armazenam várias informações também,
+//inclusive gera dúvida qdo é array e objeto.
+//Devemos usar array qdo queremos colocar várias informações,
+//em ordem e iterar uma a uma através das funções forEach, map e filter.
+//devemos usar objetos só para armazenar informações e buscar depois.
+
+
