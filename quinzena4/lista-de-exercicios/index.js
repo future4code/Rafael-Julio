@@ -70,14 +70,48 @@
 // }
 
 //Exercício 4.
-let a = Number(prompt("Qual o tamanho do lado A?"))
-let b = Number(prompt("Qual o tamanho do lado B?"))
-let c = Number(prompt("Qual o tamanho do lado C?"))
+// let a = Number(prompt("Qual o tamanho do lado A?"))
+// let b = Number(prompt("Qual o tamanho do lado B?"))
+// let c = Number(prompt("Qual o tamanho do lado C?"))
 
-if (a === b && b === c) {
-    console.log("Esse triângulo é Equilátero")
-} else if ( a === b || b === c ) {
-    console.log("Esse triângulo é Isósceles")
-} else {
-    console.log("Esse triângulo é Escaleno")
-}
+// if (a === b && b === c) {
+//     console.log("Esse triângulo é Equilátero")
+// } else if ( a === b || b === c ) {
+//     console.log("Esse triângulo é Isósceles")
+// } else {
+//     console.log("Esse triângulo é Escaleno")
+// }
+
+//Exercício 5.
+// let numero1 = Number(prompt("Digite o primeiro número!"))
+// let numero2 = Number(prompt("Digite o segundo número"))
+
+// //i)
+// if ( numero1 > numero2) {
+//     console.log(`O número maior é: ${numero1}`)
+// } else if (numero1 < numero2) {
+//     console.log(`O número maior é: ${numero2}`)
+// } else {
+//     console.log(`Os dois números são iguais`)
+// }
+
+//ii)
+// if (numero1 % numero2 === 0) {
+//     console.log(`O número ${numero1} é divisível por ${numero2}`)
+// } else {
+//     console.log(`O número ${numero1} não é divisível por ${numero2}`)
+// }
+
+// if (numero2 % numero1 === 0) {
+//     console.log(`O número ${numero2} é divisível por ${numero1}`)
+// } else {
+//     console.log(`O número ${numero2} não é divisível por ${numero1}`)
+// }
+
+//iii)
+// if (numero1 - numero2 > 0) {
+//     console.log(numero1-numero2)
+// } else {
+//     console.log(numero2-numero1)
+// }
+
