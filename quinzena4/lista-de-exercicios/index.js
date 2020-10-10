@@ -59,3 +59,12 @@
 
 //E) !(booleano1) && !(booleano3) || (!booleano4 && booleano3 && booleano3)
 //R. True
+
+//Exercício 3.
+
+// const quantidadeDeNumerosPares = Number(prompt("Quantidade de números pares"))
+// let i = 0
+// while(i < quantidadeDeNumerosPares) {
+//   console.log(i*2)
+//   i++
+// }
