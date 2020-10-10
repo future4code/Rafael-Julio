@@ -158,3 +158,10 @@
 
 // maiorMenorNumero(numeros)
 
+//Exercício 2.
+
+// let imprima = () => {
+//     alert("Hello Future4");
+// }
+
+// imprima()
