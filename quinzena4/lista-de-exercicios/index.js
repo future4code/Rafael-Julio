@@ -68,3 +68,16 @@
 //   console.log(i*2)
 //   i++
 // }
+
+//Exercício 4.
+let a = Number(prompt("Qual o tamanho do lado A?"))
+let b = Number(prompt("Qual o tamanho do lado B?"))
+let c = Number(prompt("Qual o tamanho do lado C?"))
+
+if (a === b && b === c) {
+    console.log("Esse triângulo é Equilátero")
+} else if ( a === b || b === c ) {
+    console.log("Esse triângulo é Isósceles")
+} else {
+    console.log("Esse triângulo é Escaleno")
+}
