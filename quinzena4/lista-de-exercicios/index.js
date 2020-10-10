@@ -115,3 +115,46 @@
 //     console.log(numero2-numero1)
 // }
 
+
+// ---------- Exercícios de Funções --------- //
+
+//Exercício 1.
+
+// const numeros = [25, 12, 55, 64, 121, 44, 5, 11, 84, 51, 136, 48, 14, 73, 111, 283]
+// let segundoMaior = 0
+// let segundoMenor = 1000
+// let maiorNumero = 0
+// let menorNumero = 1000
+
+// function maiorMenorNumero(array) {
+    
+    // for(let numero of array) {
+    //     if (numero > maiorNumero){
+    //         maiorNumero = numero
+    //     }
+    // }
+
+    // for(let numero of array) {
+    //     if((numero > segundoMaior) && ( numero !== maiorNumero)){
+    //         segundoMaior = numero
+    //     } 
+    // }
+
+//     for(let numero of array) {
+//         if (numero < menorNumero){
+//             menorNumero = numero
+//         }
+//     }
+
+//     for(let numero of array) {
+//         if((numero < segundoMenor) && ( numero !== menorNumero)){
+//             segundoMenor = numero
+//         } 
+//     }
+
+//     console.log(`O segundo maior número é: ${segundoMaior}`)
+//     console.log(`O segundo menor número é: ${segundoMenor}`)
+// }
+
+// maiorMenorNumero(numeros)
+
