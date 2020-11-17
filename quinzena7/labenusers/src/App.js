@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import styled from 'styled-components';
 import axios from 'axios';
+import {URL_BASE, AXIOSCONFIG} from './constants'
 
 const DivForm = styled.div`
   border: 1px solid white;
@@ -45,10 +46,7 @@ class App extends React.Component {
 
 
   usersList = () => {
-    axios.get("https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users",
-        {
-          headers: { Authorization: "rafael-julio-tang" }
-        })
+    axios.get(URL_BASE, AXIOSCONFIG)
       .then((response) => {
         this.setState({ listNames: response.data })
       })
@@ -64,11 +62,7 @@ class App extends React.Component {
       email: this.state.userEmail, 
     };
 
-    axios.post("https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users", body,
-        {
-          headers: { Authorization: "rafael-julio-tang" }
-        }
-      )
+    axios.post(URL_BASE, body, AXIOSCONFIG)
       .then((response) => {
         this.usersList();
         this.setState({ userName: "", userEmail: "" })
